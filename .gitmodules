@@ -1,0 +1,3 @@
+[submodule "submodules/clone_and_claim"]
+	path = submodules/clone_and_claim
+	url = git@github.com:CoinBR/clone_and_claim.git

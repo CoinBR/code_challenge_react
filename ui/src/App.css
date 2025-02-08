@@ -1,0 +1,32 @@
+/* Apply the dark theme to the entire page */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+  font-family: Arial, Helvetica, sans-serif; /* Ensure readable text in dark mode */
+  height: 100vh; /* Make the body take the entire browser height */
+  display: flex; /* Enables flexbox for centering */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+}
+
+/* Center the Badge component inside the app container */
+.App {
+  text-align: center;
+  width: 100%; /* Ensure content spans the full width */
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Allows flexibility if you want to add more items */
+}
+
+.Badge {
+  font-size: 1.5rem; /* Larger badge text for better visibility */
+  background-color: #198754; /* Bootstrap's success color */
+  color: white !important; /* Ensure text in badge is always white */
+}
+
